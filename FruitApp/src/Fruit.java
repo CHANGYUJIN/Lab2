@@ -13,6 +13,7 @@ public class Fruit {
 		this.price = price;
 	}
 	
+	
 	public int getNo() {
 		return no;
 	}
