@@ -26,8 +26,7 @@ public class Main {
 		for (Fruit s : fl) {
 			System.out.println(s.toString());
 		}
-		System.out.println("Fruit List (reverse ordered by name)");
-	
+		System.out.println("Fruit List (reverse ordered by name)");	
 		Collections.sort(fl, new FruitComparatorDesc());
 		//Traverse elements of arraylist (reverse ordered)
 		for (int i=0; i<fl.size(); i++) {

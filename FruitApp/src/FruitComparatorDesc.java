@@ -7,5 +7,4 @@ public class FruitComparatorDesc implements Comparator<Fruit>{
 		return o2.name.compareTo(o1.name);
 	}
 		
-	
 }
