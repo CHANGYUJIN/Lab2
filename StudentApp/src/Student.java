@@ -10,7 +10,6 @@ public class Student implements Comparable<Student> {
 		this.age = age;
 	}
 	
-	
 	public int getNo() {
 		return no;
 	}

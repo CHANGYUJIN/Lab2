@@ -22,6 +22,7 @@ public class Main {
 		al.add(new Student(109, "Doe", 29));
 		al.add(new Student(110, "Yoon", 27));
 		
+		
 		Collections.sort(al);
 		//Traverse elements of arraylist (ordered)
 		for (Student s : al) {
